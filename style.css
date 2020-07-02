@@ -1,0 +1,112 @@
+body{
+    background-color: azure;
+}
+#q{
+    width:450px;
+    height:auto;
+}
+#main{
+    text-align: center;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid #ddd;
+    float: left;
+}
+.quote{
+    font-size: 22px;
+    color: blueviolet;
+    background-color: powderblue;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+.intro{
+    font-size: 14px;
+    color: chocolate;
+    background-color:bisque;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+h2{
+ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-weight: 500;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    transform: skew(-20deg);
+}
+.links1{
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    background-color: #ff6f69;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 30px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+@keyframes example1{
+    33%{left: -250px;}
+    66%{left: -100px;}
+    100%{left: 0px; }
+}
+.links{
+    padding: 10px;
+    margin: auto; 
+    align-self: center;
+    max-width: 500px;
+    background-color:#feb236;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.links:hover{
+    transform: skew(2deg, 2deg) ;
+}
+.links1:hover{
+    transform: skew(2deg, 2deg) ;
+}
+@keyframes example{
+    33%{left: 250px;}
+    66%{left: 100px;}
+    100%{left: 0px;}
+}
+a{
+    text-decoration-line: none;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+    font-size: 15px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+}
+.icon:hover{
+    opacity: 0.7;
+    transform: translateY(-3px);
+}
+.follow{
+    color:darkslategray;
+    font-family: cursive;
+    text-decoration: underline;
+}
+footer{
+    align-content: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.uptop{
+    max-width: 900px;
+    margin:auto;
+}
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  overflow: hidden;
+}
